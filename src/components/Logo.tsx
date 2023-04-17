@@ -12,7 +12,10 @@ function Logo(props: any) {
         alt="logo"
         className="rounded-full object-cover"
       /> */}
-      <BuildingOffice2Icon className="rounded-full object-cover h-12 w-12" />
+      <BuildingOffice2Icon className="rounded-full object-cover h-12 w-12 
+      " />
+
+
 
       {renderDefault && <>{renderDefault(props)}</>}
     </div>

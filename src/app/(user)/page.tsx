@@ -6,13 +6,13 @@ import { Header } from "@/components/Header";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function HomePage() {
-  return (
-    <>
-      <Head>
-        <title>Bem vindo ao meu blog!</title>{" "}
-      </Head>
+    return (
+        <>
+            <Head>
+                <title>Bem vindo ao meu blog!</title>{" "}
+            </Head>
 
-      <Header />
-    </>
-  );
+            <Header />
+        </>
+    );
 }

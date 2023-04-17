@@ -1,7 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  images: ["https://links.papareact.com"]
-}
+  experimental: {
+    appDir: true
+  },
+  images: {
+    domains: ['links.papareact.com', 'cdn.sanity.io']
+  }
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

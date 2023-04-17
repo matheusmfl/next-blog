@@ -9,6 +9,8 @@ export function Header() {
         <Link href="">
           <BuildingOffice2Icon className="rounded-full object-cover h-12 w-12" />
         </Link>
+
+        <h1>Blog Matheus Fonteles</h1>
       </div>
 
       <div></div>
