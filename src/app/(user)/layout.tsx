@@ -1,6 +1,6 @@
-import { Banner } from '@/components/Banner';
+import Banner from '@/components/Banner';
 import { Header } from '@/components/Header';
-import '../global.css';
+import '../globals.css';
 
 export default function RootLayout({
     children

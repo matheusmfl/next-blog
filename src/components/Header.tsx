@@ -13,7 +13,11 @@ export function Header() {
         <h1>Blog Matheus Fonteles</h1>
       </div>
 
-      <div></div>
+      <div>
+        <Link href='/' className="px-5 py-3 text-sm md:text-base bg-gray-900 text-[#F7AB0A] flex items-center rounded-full">
+          Confira agora meu portfólio!
+        </Link>
+      </div>
     </header>
   );
 }

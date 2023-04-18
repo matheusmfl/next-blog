@@ -1,7 +1,9 @@
 {
-    "cSpell.words": [
-        "papafam",
-        "portabletext",
-        "tailwindcss"
-    ]
+  "cSpell.words": [
+    "papafam",
+    "portabletext",
+    "tailwindcss"
+  ],
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true
 }

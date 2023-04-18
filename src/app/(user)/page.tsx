@@ -1,18 +1,31 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import Head from "next/head";
-import { Header } from "@/components/Header";
+import { previewData } from "next/headers";
 
-const inter = Inter({ subsets: ["latin"] });
+
 
 export default function HomePage() {
+
+
+    if (previewData()) {
+        console.log('Não existe previewData')
+        return (<div><h1>Preview mode...</h1></div>)
+    }
+    else console.log('não entrou')
+
+
+
     return (
         <>
-            <Head>
-                <title>Bem vindo ao meu blog!</title>{" "}
-            </Head>
 
-            <Header />
+
+            <h1>
+                Home!
+            </h1>
+
         </>
     );
+
+
 }
