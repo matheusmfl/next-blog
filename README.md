@@ -1,6 +1,7 @@
 # Matheus Fonteles BLOG SSR
 
-Descrição do seu projeto em poucas palavras
+Sistema de blog desenvolvido no novo next 13.
+CRM utilizado foi SanityV3
 
 ---
 
