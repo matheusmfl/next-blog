@@ -33,6 +33,7 @@
     "typescript": "5.0.4"
   },
   "devDependencies": {
-    "@sanity/eslint-config-studio": "^2.0.1"
+    "@sanity/eslint-config-studio": "^2.0.1",
+    "@tailwindcss/line-clamp": "^0.4.4"
   }
 }
